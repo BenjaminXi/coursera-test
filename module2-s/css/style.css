@@ -1,0 +1,64 @@
+/*base style*/
+* {
+  box-sizing: border-box;
+}
+
+#container {
+  background-color: #9A9595;
+  width: 90%;
+  font-family: Helvetica;
+  color: black;
+  position: relative;
+
+  border: 1px solid black;
+
+  margin-bottom: 10px;
+  margin-top: 10px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  position: relative;
+  text-align: right;
+  top: 0;
+  background-color: #C66D6D;
+  border: 1px solid black;
+  margin: 0;
+}
+
+p {
+  padding: 10px;
+}
+
+/* Simple Responsive Framework. */
+.row {
+  width: 100%;
+}
+
+/********** desktop view **********/
+@media (min-width: 992px) {
+  .col-lg-4 {
+    float: left;
+  }
+
+  .col-lg-4 {
+    width: 33.33%;
+  }
+}
+
+/********** Tablet view **********/
+@media (min-width: 768px) and (max-width: 991px) {
+.col-md-6 {
+    float: left;
+  }
+
+  .col-md-6 {
+    width: 50%;
+  }
+
+}
