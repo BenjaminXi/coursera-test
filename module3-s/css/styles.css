@@ -48,14 +48,19 @@ body {
   clear: both;
   margin-top: -30px;
 }
+/*******END HEADER*******/
 
-/********Home page********/
+/********HOME PAGE********/
 #main-content {
   margin-top: 20px;
-  background-color: #D4CBCB;
-  border: 1px solid black;
 }
 
+#container {
+  border: 1px solid #3F0C1F;
+  padding: 0px 15px 0 15px;
+  margin: 10px;
+  background-color: #D4CBCB;
+}
 
 
 /********** Large devices only **********/
